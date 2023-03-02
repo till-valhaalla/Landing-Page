@@ -1,0 +1,33 @@
+span:before {
+    content: '\a';
+    white-space: pre;
+  }
+.body-content {
+    background-color: #08083D;
+    height: 700px;
+    width: 100%;
+}
+.title {
+    color: white;
+    padding: none;
+    text-align: center;
+    padding-top: 70px;
+    font-family: "Gilroy-extra-bold";
+    font-size: 45px;    
+}
+.content {
+    color: white;
+    font-family:"Gilroy-bold" ;
+    font-size: 43px;
+    margin-left: 296px;
+    padding-top: 50px;
+    width: 50%;
+    }
+    
+    .content .p {
+        font-family: "Roboto";
+        font-size: medium;
+        padding: 0;
+        margin-left: 0;
+       
+    }

@@ -1,0 +1,90 @@
+span:before {
+    content: '\a';
+    white-space: pre;
+  }
+ 
+
+.main-hero {
+    background-image: url("../../../assets/Bg.svg");
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    display: inline-flex;    
+
+}
+.content {
+color: white;
+font-family:"Gilroy-bold" ;
+font-size: 43px;
+margin-left: 296px;
+padding-top: 50px;
+width: 50%;
+}
+
+.content .p {
+    font-family: "Roboto";
+    font-size: medium;
+    padding: 0;
+    margin-left: 0;
+   
+}
+.main-button{
+    margin-top: 72px;
+    /* margin-left: 296px; */
+}
+
+.main-button {
+    align-items: center;
+    appearance: none;
+    background-color: #23CE6B;
+    border-radius:100px;
+    border-style: none;
+    box-shadow:
+    0 2.8px 2.2px rgba(201, 25, 25, 0.034),
+    0 6.7px 5.3px rgba(143, 20, 20, 0.048),
+    0 12.5px 10px #23CE6B80,
+    0 22.3px 17.9px rgba(177, 57, 57, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);  
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Roboto-bold";
+    font-size: 16px;
+    font-weight: 500;
+    height: 65px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    overflow: visible;
+    padding: 2px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 310px;
+    will-change: transform,opacity;
+    z-index: 0;
+    transition: 0.3s;
+    color: white;
+  }
+  
+  .main-button:hover {
+    transform: translate(0, -10px);
+  }
+  .icon-play{
+  font-size: 24px;
+  margin-left: 20px;
+  color: white;
+  }
+ 
+  .food-img{   
+    height: auto;
+    margin-top: 3px;
+    @media only screen and (min-width: 640px) {
+      display: none;
+    }
+  }
+  
