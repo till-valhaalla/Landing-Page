@@ -9,14 +9,13 @@ span:before {
   width: 100%;
   margin: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 .content {
   color: white;
   font-family: "Gilroy-bold";
   font-size: 43px;
   padding-top: 50px;
-  width: 50%;
 }
 .content .p {
   font-family: "Roboto";

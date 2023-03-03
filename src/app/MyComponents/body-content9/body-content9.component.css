@@ -1,0 +1,32 @@
+p {
+  color: white;
+  letter-spacing: 0;
+  text-align: center;
+  padding-top: 30px;
+  width: 50%;
+  font-family: "Roboto-light";
+}
+.p1 {
+  padding-top: 15px;
+}
+.p-bold {
+  font-family: "Roboto-bold";
+}
+h1 {
+  padding-top: 70px;
+  font-family: "Gilroy-bold";
+  color: white;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  height: 860px;
+  background-image: linear-gradient(to right, #6184d8, #08083d);
+}
