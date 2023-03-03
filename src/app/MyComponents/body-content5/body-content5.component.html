@@ -1,3 +1,22 @@
 <div class="main-content">
   <h1>Lorem Ipsum Dolor Sit</h1>
+  <div class="content-tick" *ngFor="let image of cardData">
+    <ul>
+      <li>
+        <p class="desc">{{ image.srno }}</p>
+      </li>
+      <li>
+        <p class="desc">{{ image.title }}</p>
+      </li>
+      <li>
+        <p class="desc">{{ image.desc }}</p>
+      </li>
+      <li>
+        <img [src]="image.imgUrl" alt="Image" />
+      </li>
+      <li>
+        <img [src]="image.imgUrl2" alt="Image2" />
+      </li>
+    </ul>
+  </div>
 </div>
