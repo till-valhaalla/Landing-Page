@@ -27,6 +27,12 @@ li {
   display: inline-block;
   padding: 0 1em;
 }
+.header-content {
+  font-family: "Gilroy-light";
+  color: white;
+  font-size: medium;
+  opacity: 0.8;
+}
 
 .main-button {
   margin-top: 72px;

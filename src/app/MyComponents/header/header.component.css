@@ -28,12 +28,7 @@ li {
   font-size: x-large;
   font-family: "Gilroy";
 }
-.header-content {
-  font-family: "Gilroy-light";
-  color: white;
-  font-size: medium;
-  opacity: 0.8;
-}
+
 .header-button {
   background-color: #23ce6b;
   border: none;
