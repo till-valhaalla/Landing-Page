@@ -19,6 +19,14 @@ p,
 pre {
   margin: 0;
 }
+ul {
+  list-style: none;
+  margin-right: auto;
+}
+li {
+  display: inline-block;
+  padding: 0 1em;
+}
 
 .main-button {
   margin-top: 72px;
@@ -26,7 +34,6 @@ pre {
 
 .main-button {
   align-items: center;
-  appearance: none;
   background-color: #23ce6b;
   border-radius: 100px;
   border-style: none;
@@ -36,25 +43,12 @@ pre {
     0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   display: inline-flex;
-  fill: currentcolor;
   font-family: "Roboto-bold";
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 20px;
   height: 65px;
   justify-content: center;
   letter-spacing: 0.25px;
-  line-height: normal;
-  overflow: visible;
-  padding: 2px;
-  position: relative;
-  text-align: center;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
   width: 310px;
-  will-change: transform, opacity;
-  z-index: 0;
   transition: 0.3s;
   color: white;
 }
@@ -66,15 +60,4 @@ pre {
   font-size: 24px;
   margin-left: 20px;
   color: white;
-}
-.button1 {
-  font-size: 20px;
-}
-ul {
-  list-style: none;
-  margin-right: auto;
-}
-li {
-  display: inline-block;
-  padding: 0 1em;
 }
