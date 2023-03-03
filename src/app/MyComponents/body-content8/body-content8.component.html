@@ -1,1 +1,21 @@
-<div class="main-content"></div>
+<div class="main-content">
+  <div *ngFor="let card of cardData">
+    <ul>
+      <li>
+        <img [src]="card.imgurl1" alt="quote" />
+      </li>
+      <li>
+        <p>{{ card.content }}</p>
+      </li>
+      <li>
+        <img [src]="card.imgurl2" alt="Image" />
+      </li>
+      <li>
+        <p>{{ card.title }}</p>
+      </li>
+      <li>
+        <p>{{ card.desc }}</p>
+      </li>
+    </ul>
+  </div>
+</div>
