@@ -1,0 +1,42 @@
+p {
+  font-family: "Roboto-light";
+  color: white;
+  padding-left: 200px;
+  width: 40%;
+  font-size: 21px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.p1 {
+  padding-top: 0;
+}
+
+.main-content {
+  background-image: url("../../../assets/Mcdonalds.png");
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 630px;
+}
+.title {
+  color: white;
+  padding-top: 70px;
+  padding-left: 200px;
+  font-family: "Gilroy-extra-bold";
+  font-size: 45px;
+  letter-spacing: normal;
+  width: auto;
+  padding-bottom: 0;
+}
+.title1 {
+  color: #23ce6b;
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+.align {
+  padding-left: 200px;
+}
+.main-button {
+  margin-top: 30px !important;
+}

@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    margin: 0%;
+  margin: 0%;
 }
 
 blockquote,
@@ -20,3 +20,50 @@ pre {
   margin: 0;
 }
 
+.main-button {
+  margin-top: 72px;
+}
+
+.main-button {
+  align-items: center;
+  appearance: none;
+  background-color: #23ce6b;
+  border-radius: 100px;
+  border-style: none;
+  box-shadow: 0 2.8px 2.2px rgba(201, 25, 25, 0.034),
+    0 6.7px 5.3px rgba(143, 20, 20, 0.048), 0 12.5px 10px #23ce6b80,
+    0 22.3px 17.9px rgba(177, 57, 57, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Roboto-bold";
+  font-size: 16px;
+  font-weight: 500;
+  height: 65px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  overflow: visible;
+  padding: 2px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 310px;
+  will-change: transform, opacity;
+  z-index: 0;
+  transition: 0.3s;
+  color: white;
+}
+
+.main-button:hover {
+  transform: translate(0, -10px);
+}
+.icon-play {
+  font-size: 24px;
+  margin-left: 20px;
+  color: white;
+}

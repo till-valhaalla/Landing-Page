@@ -16,6 +16,7 @@ import { BodyContent7Component } from './MyComponents/body-content7/body-content
 import { BodyContent8Component } from './MyComponents/body-content8/body-content8.component';
 import { BodyContent9Component } from './MyComponents/body-content9/body-content9.component';
 import { FooterComponent } from './MyComponents/footer/footer.component';
+import { BodyContent10Component } from './MyComponents/body-content10/body-content10.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FooterComponent } from './MyComponents/footer/footer.component';
     BodyContent7Component,
     BodyContent8Component,
     BodyContent9Component,
-    FooterComponent
+    FooterComponent,
+    BodyContent10Component
   ],
   imports: [
     BrowserModule,
