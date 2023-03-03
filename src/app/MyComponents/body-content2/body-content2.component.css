@@ -1,33 +1,79 @@
-span:before {
-    content: '\a';
-    white-space: pre;
-  }
 .body-content {
-    background-color: #08083D;
-    height: 700px;
-    width: 100%;
+  background-color: #08083d;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 .title {
-    color: white;
-    padding: none;
-    text-align: center;
-    padding-top: 70px;
-    font-family: "Gilroy-extra-bold";
-    font-size: 45px;    
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  font-family: "Gilroy-extra-bold";
+  font-size: 45px;
 }
 .content {
-    color: white;
-    font-family:"Gilroy-bold" ;
-    font-size: 43px;
-    margin-left: 296px;
-    padding-top: 50px;
-    width: 50%;
-    }
-    
-    .content .p {
-        font-family: "Roboto";
-        font-size: medium;
-        padding: 0;
-        margin-left: 0;
-       
-    }
+  color: white;
+  font-family: "Gilroy-bold";
+  font-size: 43px;
+  padding-top: 50px;
+}
+
+.content .p {
+  font-family: "Roboto-light";
+  font-size: 24px;
+}
+.p1 {
+  text-align: center;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.carousel__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.carousel__btn:hover {
+  color: #ccc;
+}
+
+.carousel__btn--prev {
+  left: 0;
+}
+
+.carousel__btn--next {
+  right: 0;
+}
+
+.carousel__image-container {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.carousel__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 500px;
+}

@@ -1,9 +1,29 @@
-<div class="body-content"> 
-    <h1 class="title">Lorem ipsum dolor sit amet <br>adipiscing elit. Donec odio. Quisque volutpat mattis</h1>
-    <div class="content">
-        <span  class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut.</span><span class="p"> Suspendisse urna nibh, viverra non, semper suscipit</span>  
+<div class="body-content">
+  <h1 class="title">
+    Lorem ipsum dolor sit amet <br />adipiscing elit. Donec odio. Quisque
+    volutpat mattis
+  </h1>
+  <div class="content">
+    <p class="p">
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
+      Quisque volutpat mattis eros. Nullam malesuada erat ut.
+    </p>
+    <p class="p p1">Suspendisse urna nibh, viverra non, semper suscipit</p>
+  </div>
 
-
+  <div class="carousel">
+    <button class="carousel__btn carousel__btn--prev" (click)="showPrev()">
+      <fa-icon class="icon-play" [icon]="faleft"></fa-icon>
+    </button>
+    <div class="carousel__image-container">
+      <img
+        class="carousel__image"
+        [src]="images[currentIndex]"
+        alt="Slide {{ currentIndex + 1 }}"
+      />
     </div>
-
+    <button class="carousel__btn carousel__btn--next" (click)="showNext()">
+      <fa-icon class="icon-play" [icon]="faright"></fa-icon>
+    </button>
+  </div>
 </div>
