@@ -8,4 +8,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 })
 export class HeaderComponent {
   faBarIcon = faBars;
+  isMenuOpen = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }

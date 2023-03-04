@@ -24,11 +24,15 @@
 .card-title {
   white-space: nowrap;
   font-size: 18px;
+  font-family: "Roboto-bold";
+  color: #08083d;
+  font-weight: 600;
 }
 .desc {
   color: #08083d;
-  font-family: "Roboto";
+  font-family: "Roboto-light";
   font-size: 14px;
+  font-weight: 600;
 }
 
 .cards {

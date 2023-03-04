@@ -49,4 +49,34 @@ li {
   width: 28px;
   height: 20px;
   color: white;
+  display: none;
+}
+.menu {
+  display: none;
+  color: #08083d;
+  background-color: white;
+
+  border: none;
+}
+
+.contents {
+  width: 93%;
+  border: 1px;
+  border-bottom-color: #08083d;
+  font-family: "Gilroy-light";
+  opacity: 0.8;
+}
+.contents:hover {
+  background-color: #8484dfbe;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .hamburger-icon {
+    display: contents;
+  }
 }
