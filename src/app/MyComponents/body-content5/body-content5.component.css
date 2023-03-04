@@ -57,3 +57,12 @@ h1 {
   width: 581px;
   padding-left: 133px;
 }
+.circle {
+  height: 97px;
+  width: 90px;
+  background-image: linear-gradient(to right, #23ce6b, #4d80fb);
+  border-radius: 50%;
+}
+.img {
+  padding-top: 20px;
+}

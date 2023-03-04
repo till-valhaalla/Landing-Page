@@ -28,5 +28,6 @@ h1 {
   flex-direction: column;
   padding: 0;
   height: 860px;
+
   background-image: linear-gradient(to right, #6184d8, #08083d);
 }

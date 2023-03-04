@@ -1,20 +1,24 @@
 <div class="main-content">
-  <div *ngFor="let card of cardData">
+  <div
+    class="card"
+    *ngFor="let card of cardData"
+    [style.background-color]="card.bgcolor"
+  >
     <ul>
-      <li>
+      <li class="quote">
         <img [src]="card.imgurl1" alt="quote" />
       </li>
       <li>
         <p>{{ card.content }}</p>
       </li>
-      <li>
+      <li class="quote">
         <img [src]="card.imgurl2" alt="Image" />
       </li>
       <li>
-        <p>{{ card.title }}</p>
+        <p class="p1">{{ card.title }}</p>
       </li>
       <li>
-        <p>{{ card.desc }}</p>
+        <p class="p2">{{ card.desc }}</p>
       </li>
     </ul>
   </div>

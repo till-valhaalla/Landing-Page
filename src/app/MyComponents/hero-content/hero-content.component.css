@@ -30,3 +30,6 @@ span:before {
     display: none;
   }
 }
+.clicked {
+  color: red;
+}

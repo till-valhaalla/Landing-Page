@@ -5,6 +5,7 @@ interface Card {
   title: string;
   desc: string;
   content: string;
+  bgcolor: string;
 }
 @Component({
   selector: 'app-body-content8',
@@ -20,6 +21,7 @@ export class BodyContent8Component {
       desc: 'Lorem ipsum dolor sit',
       content:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Integer enim.',
+      bgcolor: '#23CE6B',
     },
     {
       imgurl1: '../../../assets/quote.svg',
@@ -28,6 +30,7 @@ export class BodyContent8Component {
       desc: 'Lorem ipsum dolor sit',
       content:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      bgcolor: '#08083D',
     },
     {
       imgurl1: '../../../assets/quote.svg',
@@ -36,6 +39,7 @@ export class BodyContent8Component {
       desc: 'Lorem ipsum dolor sit',
       content:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      bgcolor: '#6184D8 ',
     },
     {
       imgurl1: '../../../assets/quote.svg',
@@ -44,6 +48,7 @@ export class BodyContent8Component {
       desc: 'Lorem ipsum dolor sit',
       content:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      bgcolor: '#23CE6B ',
     },
     {
       imgurl1: '../../../assets/quote.svg',
@@ -52,6 +57,7 @@ export class BodyContent8Component {
       desc: 'Lorem ipsum dolor sit',
       content:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore!',
+      bgcolor: '#6184D8 ',
     },
   ];
 }
