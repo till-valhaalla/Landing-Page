@@ -17,10 +17,13 @@ span:before {
   font-size: 43px;
   padding-top: 50px;
 }
-.content .p {
-  font-family: "Roboto";
-  font-size: medium;
-  padding: 0;
+.p {
+  font-family: "Roboto-light";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.p1 {
+  padding-top: 5px;
 }
 .food-img {
   height: auto;
@@ -30,6 +33,28 @@ span:before {
     display: none;
   }
 }
-.clicked {
-  color: red;
+.element {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: fit-content;
+  margin-top: 20px;
+  background-color: #6184d8;
+  color: white;
+  cursor: pointer;
+  width: fit-content;
+  animation: up-down 1s ease-in-out infinite;
+
+  /* transition: background-color 0.4s ease-out color 0.4s ease-in; */
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

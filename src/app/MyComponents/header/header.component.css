@@ -45,3 +45,8 @@ li {
 .button1 {
   border-radius: 5px;
 }
+.hamburger-icon {
+  width: 28px;
+  height: 20px;
+  color: white;
+}
