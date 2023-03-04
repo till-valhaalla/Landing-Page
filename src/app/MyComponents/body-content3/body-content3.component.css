@@ -1,67 +1,48 @@
+p {
+  color: white;
+  font-family: "Roboto-light";
+  width: 50%;
+  opacity: 1;
+  padding-top: 38px;
+  line-height: 1.6;
+}
 
-span:before {
-    content: '\a';
-    white-space: pre;
-  }
-  p{
-    color: white;
-    font-family: "Roboto-light";
-    width: 50%;
-    opacity: 1;
-    padding-top: 38px;
-    line-height: 1.6
-  }
-
- 
 .body-content {
-        background-color:#6184D8;
-        height: 700px;
-        width: 100%;
-        opacity: 90%;
-        display: inline-flex;  
-       
-    }
-    .contentheading{
-        margin-left: 296px;
-        width: 50%;
-    }
-    .title{
-        color: #23CE6B;
-        padding: none;
-        padding-top: 70px;
-        font-family: "Gilroy-extra-bold";
-        font-size: 45px;        
-    }
-    .title1{
-        color: white;
-        padding: none;
-        padding-top: 70px;
-        font-family: "Gilroy-extra-bold";
-        font-size: 45px;  
-    }  
-    
-    .content-image-overlap {
-        position: relative;
-        padding-top: 60px;
-        height: 50px;
-      }
-      
-      .content-image-overlap img {
-        position:absolute;        
-        left: 20px;
-      }
-      
-      .content-image-overlap img:first-child {
-        z-index: -1;
-        
-      }      
-      .content-image-overlap img:last-child {
-        z-index: -5;
-        
-      
-      }
-      
-      
-      
-      
-      
+  background-color: #6184d8;
+  padding-bottom: 56px;
+  width: 100%;
+  opacity: 90%;
+  display: flex;
+}
+.contentheading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  color: #23ce6b;
+  font-family: "Gilroy-extra-bold";
+  font-size: 45px;
+  padding-top: 0;
+}
+.title1 {
+  color: white;
+}
+
+.content-image-overlap {
+  padding-top: 60px;
+  height: 50px;
+  width: 50%;
+}
+
+.content-image-overlap img {
+  position: absolute;
+  left: 20px;
+}
+
+.content-image-overlap img:first-child {
+  z-index: -1;
+}
+.content-image-overlap img:last-child {
+  z-index: -5;
+}

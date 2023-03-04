@@ -1,40 +1,42 @@
 ul {
-    list-style: none;
-    margin-right: auto;  
-   
-  }  
+  list-style: none;
+  margin-right: auto;
+}
 li {
-    display: inline-block; 
-    padding: 0 1em; 
-  }
+  display: inline-block;
+  padding: 0 1em;
+}
 
 .body-content {
-background-color: #E8EFFF;
-    height: 700px;
-    width: 100%;
+  background-color: #e8efff;
+  padding-bottom: 73px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
-.title{
-    color: #08083D;
-    padding: none;
-    text-align: center;
-    padding-top: 70px;
-    font-family: "Gilroy-extra-bold";
-    font-size: 45px;
-    
+.title {
+  color: #08083d;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 58px;
+  font-family: "Gilroy-extra-bold";
+  font-size: 45px;
 }
-.content-tick{
-    text-align: center;   
-    display: grid;
-    row-gap: 1px;
-    grid-template-columns: auto auto auto;
-    margin-left: 589px;
-    height: 45px;
-
+.content {
+  display: flex;
+  flex-direction: column;
 }
-.content-tick .desc
-{
-    color: #08083D;
-    font-family: "Roboto-extrabold";
-    font-size: 20px;
-    padding-left: 15px;
+.content-tick {
+  text-align: center;
+  display: grid;
+  row-gap: 1px;
+  grid-template-columns: auto auto auto;
+  height: 45px;
+}
+.content-tick .desc {
+  color: #08083d;
+  font-family: "Roboto-extrabold";
+  font-size: 20px;
+  padding-left: 15px;
 }

@@ -1,17 +1,15 @@
 <div class="body-content">
-    <h1 class="title">Lorem Ipsum Dolor</h1>
-    <div  class="content-tick"  *ngFor="let image of imageData">
-        <ul>
-            <li>
-                <img [src]="image.imageUrl" alt="Image">   
-
-            </li>
-            <li>
-                <p class="desc">{{ image.desc }}</p>
-               
-            </li>            
-        </ul>      
-        
-      </div>
-
+  <h1 class="title">Lorem Ipsum Dolor</h1>
+  <div class="content">
+    <div class="content-tick" *ngFor="let image of imageData">
+      <ul>
+        <li>
+          <img [src]="image.imageUrl" alt="Image" />
+        </li>
+        <li>
+          <p class="desc">{{ image.desc }}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
