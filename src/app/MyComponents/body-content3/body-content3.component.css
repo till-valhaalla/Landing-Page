@@ -23,10 +23,12 @@ p {
   color: #23ce6b;
   font-family: "Gilroy-extra-bold";
   font-size: 45px;
-  padding-top: 0;
+  padding-top: 20px;
+  height: 65px;
 }
 .title1 {
   color: white;
+  padding-top: 0;
 }
 
 .content-image-overlap {

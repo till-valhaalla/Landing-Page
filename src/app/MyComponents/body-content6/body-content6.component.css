@@ -12,7 +12,7 @@ p {
 }
 
 .main-content {
-  background-image: url("../../../assets/Mcdonalds.png");
+  background-image: url("/assets/Mcdonalds.png");
   width: 100%;
   display: flex;
   justify-content: flex-start;
