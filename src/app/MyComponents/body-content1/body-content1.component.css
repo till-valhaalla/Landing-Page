@@ -23,6 +23,12 @@ li {
   font-family: "Gilroy-extra-bold";
   font-size: 45px;
 }
+.content-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .content {
   display: flex;
   flex-direction: column;
