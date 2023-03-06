@@ -1,17 +1,19 @@
 <div class="main-header">
   <!-- <fa-icon class="icon-play" [icon]="faBarIcon"></fa-icon> -->
-  <fa-icon
-    (click)="toggleMenu()"
-    class="hamburger-icon"
-    [icon]="faBarIcon"
-  ></fa-icon>
-  <div class="menu" *ngIf="isMenuOpen">
-    <!-- Menu contents here -->
-    <ul>
-      <li class="contents">How it works</li>
-      <li class="contents">Franchise list</li>
-      <li class="contents">Franchising guide</li>
-    </ul>
+  <div class="hamburger-wrapper">
+    <fa-icon
+      (click)="toggleMenu()"
+      class="hamburger-icon"
+      [icon]="faBarIcon"
+    ></fa-icon>
+    <div class="menu" *ngIf="isMenuOpen">
+      <!-- Menu contents here -->
+      <ul>
+        <li class="contents">How it works</li>
+        <li class="contents">Franchise list</li>
+        <li class="contents">Franchising guide</li>
+      </ul>
+    </div>
   </div>
 
   <div class="header-logo">

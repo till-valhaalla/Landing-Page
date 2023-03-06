@@ -29,9 +29,7 @@ span:before {
   height: auto;
   margin-top: 3px;
   padding-top: 30px;
-  @media only screen and (min-width: 640px) {
-    display: none;
-  }
+  display: none;
 }
 .element {
   padding-left: 10px;
@@ -45,10 +43,14 @@ span:before {
 
   /* transition: background-color 0.4s ease-out color 0.4s ease-in; */
 }
+@media (min-width: 479px) {
+  .food-img {
+    display: block;
+  }
+}
 .element:hover {
   animation: up-down 1s ease-in-out infinite;
 }
-
 @keyframes up-down {
   0% {
     transform: translateY(0);

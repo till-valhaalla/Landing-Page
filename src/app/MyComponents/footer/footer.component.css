@@ -1,9 +1,14 @@
 .main-content {
   width: 100%;
-  display: flex;
+  display: none;
   height: 200px;
   background-image: url("/assets/footer-bg.png");
   justify-content: space-evenly;
+}
+@media (min-width: 479px) {
+  .main-content {
+    display: flex;
+  }
 }
 .title {
   display: flex;

@@ -17,7 +17,7 @@ p {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  height: 630px;
+  height: fit-content;
 }
 .title {
   color: white;
@@ -39,4 +39,7 @@ p {
 }
 .main-button {
   margin-top: 30px !important;
+}
+.button1 {
+  width: 30%;
 }

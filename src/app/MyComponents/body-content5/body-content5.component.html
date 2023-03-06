@@ -1,31 +1,36 @@
 <div class="main-content">
   <h1>Lorem Ipsum Dolor Sit</h1>
-  <div class="row">
+  <div class="container">
     <div class="content-tick" *ngFor="let image of cardData">
       <ul>
-        <li>
-          <p class="srno">{{ image.srno }}</p>
-        </li>
-        <li>
-          <p class="srno title">{{ image.title }}</p>
-        </li>
-        <li>
-          <p class="desc">{{ image.desc }}</p>
-        </li>
-        <li class="circle">
-          <img class="img" [src]="image.imgUrl" alt="Image" />
-        </li>
-        <li>
-          <img [src]="image.imgUrl2" alt="Image2" />
+        <div class="flex">
+          <div class="content-container">
+            <li>
+              <p class="srno">{{ image.srno }}</p>
+            </li>
+            <li>
+              <p class="srno title">{{ image.title }}</p>
+            </li>
+            <li>
+              <p class="desc">{{ image.desc }}</p>
+            </li>
+          </div>
+          <li class="circle">
+            <img width="40px" height="40px" [src]="image.imgUrl" alt="Image" />
+          </li>
+        </div>
+
+        <li class="chevron">
+          <img width="32px" height="32px" [src]="image.imgUrl2" alt="Image2" />
         </li>
       </ul>
     </div>
-  </div>
-  <div class="rect">
-    <p class="srno title rect1">Lorem Ipsum Dolor Sit...</p>
-    <p class="desc rect2">
-      Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Integer enim neque
-    </p>
+    <div class="rect">
+      <p class="srno heading2 rect1">Lorem Ipsum Dolor Sit...</p>
+      <p class="desc rect2">
+        Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Integer enim neque
+      </p>
+    </div>
   </div>
 </div>

@@ -18,7 +18,7 @@ li {
   border-bottom-color: white;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: baseline;
   padding-top: 31px;
   padding-bottom: 31px;
 }
@@ -49,18 +49,17 @@ li {
   width: 28px;
   height: 20px;
   color: white;
-  display: none;
 }
 .menu {
-  display: none;
   color: #08083d;
   background-color: white;
-
   border: none;
+  position: absolute;
+  top: 24px;
 }
 
 .contents {
-  width: 93%;
+  width: 140px;
   border: 1px;
   border-bottom-color: #08083d;
   font-family: "Gilroy-light";
@@ -70,13 +69,20 @@ li {
   background-color: #8484dfbe;
 }
 
-@media (min-width: 768px) {
-  .menu {
-    display: block;
-  }
+.hamburger-wrapper {
+  display: block;
+  position: relative;
 }
-@media (min-width: 768px) {
-  .hamburger-icon {
-    display: contents;
+
+.header-content {
+  display: none;
+}
+
+@media (min-width: 479px) {
+  .hamburger-wrapper {
+    display: none;
+  }
+  .header-content {
+    display: flex;
   }
 }

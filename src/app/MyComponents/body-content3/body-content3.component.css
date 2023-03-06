@@ -48,3 +48,13 @@ p {
 .content-image-overlap img:last-child {
   z-index: -5;
 }
+
+.img {
+  display: none;
+}
+
+@media (min-width: 479px) {
+  .img {
+    display: block;
+  }
+}

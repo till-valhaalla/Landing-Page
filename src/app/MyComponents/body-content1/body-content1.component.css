@@ -19,9 +19,9 @@ li {
   color: #08083d;
   text-align: center;
   padding-top: 70px;
-  padding-bottom: 58px;
+  padding-bottom: 32px;
   font-family: "Gilroy-extra-bold";
-  font-size: 45px;
+  font-size: 24px;
 }
 .content-wrapper {
   display: flex;
@@ -32,17 +32,28 @@ li {
 .content {
   display: flex;
   flex-direction: column;
+  gap: 12px;
 }
 .content-tick {
-  text-align: center;
-  display: grid;
   row-gap: 1px;
-  grid-template-columns: auto auto auto;
   height: 45px;
 }
 .content-tick .desc {
   color: #08083d;
   font-family: "Roboto-extrabold";
-  font-size: 20px;
+  font-size: 14px;
   padding-left: 15px;
+}
+
+.tick-container {
+  display: flex;
+}
+
+@media (min-width: 479px) {
+  .title {
+    font-size: 40px;
+  }
+  .desc {
+    font-size: 20px !important;
+  }
 }

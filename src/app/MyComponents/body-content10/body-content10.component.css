@@ -25,6 +25,12 @@ p {
 }
 .img {
   margin-top: 82px;
+  display: none;
+}
+@media (min-width: 479px) {
+  .img {
+    display: block;
+  }
 }
 .b {
   margin-top: 50px;
