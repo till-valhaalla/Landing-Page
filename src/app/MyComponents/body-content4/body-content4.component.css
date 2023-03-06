@@ -24,6 +24,7 @@
 .card-title {
   white-space: nowrap;
   font-size: 18px;
+  color: #08083d;
 }
 .desc {
   color: #08083d;
@@ -42,6 +43,15 @@
   }
   .title {
     font-size: 36px;
+  }
+  .card-title {
+    font-size: 24px;
+    color: #08083d;
+    font-weight: 700;
+  }
+  .desc {
+    font-size: 16px;
+    /* font-weight: 400; */
   }
 }
 @media (min-width: 1024px) {

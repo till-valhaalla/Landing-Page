@@ -1,15 +1,11 @@
 .main-content {
   width: 100%;
-  display: none;
+  display: flex;
   height: 200px;
   background-image: url("/assets/footer-bg.png");
   justify-content: space-evenly;
 }
-@media (min-width: 479px) {
-  .main-content {
-    display: flex;
-  }
-}
+
 .title {
   display: flex;
   font-family: "Gilroy-bold";
@@ -36,6 +32,13 @@
 }
 .images {
   padding-top: 22px;
+  display: none;
+}
+
+@media (min-width: 479px) {
+  .images {
+    display: flex;
+  }
 }
 .images2 {
   padding-right: 14px;

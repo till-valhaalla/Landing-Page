@@ -6,16 +6,14 @@ span:before {
 .main-hero {
   background-image: url("/assets/Bg.svg");
   height: fit-content;
-  width: 100%;
-  margin: 0;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 30px;
 }
 .content {
+  font-size: 35px;
   color: white;
   font-family: "Gilroy-bold";
-  font-size: 43px;
-  padding: 20px;
 }
 .p {
   font-family: "Roboto-light";
@@ -41,6 +39,12 @@ span:before {
   cursor: pointer;
   width: fit-content;
 }
+.main-button {
+  width: fit-content;
+  font-size: initial;
+  padding: 14px;
+  height: auto;
+}
 @media (min-width: 479px) {
   .food-img {
     display: block;
@@ -48,6 +52,18 @@ span:before {
   .content {
     padding-top: 50px;
     padding-bottom: 50px;
+    color: white;
+    font-family: "Gilroy-bold";
+    font-size: 43px;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+  .main-button {
+    font-size: 20px;
+    height: 65px;
+    justify-content: center;
+    letter-spacing: 0.25px;
+    width: 310px;
   }
 }
 .element:hover {

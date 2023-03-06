@@ -1,18 +1,18 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 import {
   faChevronLeft,
   faChevronRight,
-} from '@fortawesome/free-solid-svg-icons';
+} from "@fortawesome/free-solid-svg-icons";
 
 @Component({
-  selector: 'app-body-content2',
-  templateUrl: './body-content2.component.html',
-  styleUrls: ['./body-content2.component.css'],
+  selector: "app-body-content2",
+  templateUrl: "./body-content2.component.html",
+  styleUrls: ["./body-content2.component.css"],
 })
 export class BodyContent2Component {
   faleft = faChevronLeft;
   faright = faChevronRight;
-  images = ['assets/amazon.png', 'assets/cent.png', 'assets/giga.png'];
+  images = ["assets/amazon.png", "assets/cent.png", "assets/giga.png"];
   currentIndex = 0;
 
   showPrev() {

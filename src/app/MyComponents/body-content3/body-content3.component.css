@@ -1,7 +1,7 @@
 p {
   color: white;
   font-family: "Roboto-light";
-  width: 50%;
+  /* width: 50%; */
   opacity: 1;
   padding-top: 38px;
   line-height: 1.6;
@@ -9,8 +9,7 @@ p {
 
 .body-content {
   background-color: #6184d8;
-  padding-bottom: 56px;
-  width: 100%;
+  padding: 20px;
   opacity: 90%;
   display: flex;
 }
@@ -57,4 +56,17 @@ p {
   .img {
     display: block;
   }
+  p {
+    width: 50%;
+  }
+  .body-content {
+    padding-bottom: 56px;
+    padding-right: 0;
+  }
 }
+/* @media (min-width: 1024px) {
+  .img {
+    display: block;
+  }
+ 
+} */
