@@ -17,7 +17,7 @@ li {
   border: 1px solid black;
   border-bottom-color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: baseline;
   padding-top: 31px;
   padding-bottom: 31px;
@@ -27,6 +27,7 @@ li {
   margin-top: 15px;
   font-size: x-large;
   font-family: "Gilroy";
+  padding-right: 20px;
 }
 
 .header-button {
@@ -64,6 +65,8 @@ li {
   border-bottom-color: #08083d;
   font-family: "Gilroy-light";
   opacity: 0.8;
+  border: 1px solid #dcdde5;
+  border-bottom-color: white;
 }
 .contents:hover {
   background-color: #8484dfbe;
@@ -72,6 +75,7 @@ li {
 .hamburger-wrapper {
   display: block;
   position: relative;
+  padding-left: 20px;
 }
 
 .header-content {
@@ -81,8 +85,15 @@ li {
 @media (min-width: 479px) {
   .hamburger-wrapper {
     display: none;
+    padding-left: 0;
   }
   .header-content {
     display: flex;
+  }
+  .main-header {
+    justify-content: space-evenly;
+  }
+  .header-logo {
+    padding-right: 0;
   }
 }
